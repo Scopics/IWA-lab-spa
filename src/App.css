@@ -1,3 +1,52 @@
 .App {
   text-align: center;
 }
+
+/* text */
+
+.header {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto 50px;
+
+  text-align: center;
+}
+
+.suptitle {
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.title:after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin: 30px auto;
+
+  background-color: #61a6ff;
+}
+
+.text {
+  font-size: 15px;
+  color: #999;
+
+}
+
+/* card container */
+
+.card_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  justify-content: center;
+}
