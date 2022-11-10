@@ -7,6 +7,7 @@ const CardItem = ({image, name, info}) => {
          <div class='card_image'>
            <img src={image} alt={name}/>
          </div>
+         <div class="card_text">{name}</div>
        </div>
        <div class='card_info'>
          <div class='card_name'>{name}</div>
