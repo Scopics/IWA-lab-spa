@@ -11,7 +11,7 @@ function App() {
           <h3 class='suptitle'>Who we are</h3>
           <h2 class='title'>Meet our team</h2>
           <div class='text'>
-            <p>Lab Work 1: SPA, nginx, docker</p>
+            <p>Lab Work 2: SPA, nginx, vagrant</p>
             </div>
         </div>
         <div class='card_container'>
